@@ -9,6 +9,8 @@ Skill demostrated/implemented (to be finalised once project is completed):
 
 Photo by Bogdan Novac: https://www.pexels.com/photo/books-and-vintage-items-inside-a-store-5673822/ 
 
+logo: Photo by Sound On: https://www.pexels.com/photo/white-wireless-headphones-3394662/
+
 Book cover photos credit:
 1. Photo by Enes Sözen: https://www.pexels.com/photo/a-book-and-radio-on-green-grass-field-12967509/
 2. https://www.lunieditrice.com/wp-content/uploads/2021/01/Musashi-Eiji-Yoshikawa-edizione-integrale-2-volumi-600x894.webp
