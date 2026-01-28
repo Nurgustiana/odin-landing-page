@@ -139,7 +139,6 @@ h2 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 0 auto;
     padding: 40px;
     gap: 20px;
 }
@@ -149,6 +148,10 @@ h2 {
     font-weight: 300;
     color: #1F2937;
     font-style: italic;
+}
+
+span {
+    font-weight: bold;
 }
 
 #last-call {
