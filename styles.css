@@ -55,6 +55,7 @@ main {
     width: 50%;
     height: auto;
     padding: 40px;
+    /* didn't work: border-radius: 20px; */
 }
 
 .hero-main {
