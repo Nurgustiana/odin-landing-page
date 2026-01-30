@@ -36,6 +36,10 @@ main {
     width: 100%;
 }
 
+#about-us, #timeless-book, #quotes, #last-call, footer {
+    width: 100%;
+}
+
 #about-us {
     display: flex;
     flex-direction: row;
