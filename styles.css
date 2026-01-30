@@ -2,12 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    width: 100%;
+
 }
 
 body {
     font-family: Roboto, sans-serif;
-    width: 100%;
-    height: 100vh;
 }
 
 #navbar, footer, #about-us {
@@ -31,10 +31,12 @@ body {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+    justify-content: flex-end;
 }
 
 main {
     margin-top: 60px;
+    width: 100%;
 }
 
 #about-us {
