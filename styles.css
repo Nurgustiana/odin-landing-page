@@ -22,6 +22,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    height: auto;
 }
 
 .right-links a {
@@ -33,11 +34,11 @@ body {
 
 main {
     margin-top: 20px;
-    width: 100%;
 }
 
-#about-us, #timeless-book, #quotes, #last-call, footer {
+main, #about-us, #timeless-book, #quotes, #last-call, footer {
     width: 100%;
+    height: auto;
 }
 
 #about-us {
@@ -49,6 +50,8 @@ main {
 
 .heros {
     width: 50%;
+    max-width: 50%;
+    height: auto;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -58,6 +61,7 @@ main {
 
 #about-us img {
     width: 50%;
+    max-width: 100%;
     height: auto;
     padding: 40px;
     margin: 100px auto;
@@ -106,7 +110,6 @@ h2 {
     margin: 20px auto;
     padding: 20px;
     gap: 20px;
-    width: 100%;
 }
 
 #books {
@@ -125,7 +128,7 @@ h2 {
 }
 
 #books img {
-    width: 300px;
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
@@ -148,9 +151,8 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
-    gap: 20px;
-    width: 100%;
+    padding: 60px;
+    gap: 40px;
 }
 
 .quote {
@@ -158,7 +160,8 @@ h2 {
     font-weight: 300;
     color: #1F2937;
     font-style: italic;
-    width: 1200px;
+    width: 80%;
+    max-width: 80%;
 }
 
 span {
@@ -167,8 +170,8 @@ span {
 
 #last-call {
     background-color: white;
-    height: 300px;
-    padding: 20px;
+    max-height: 300px;
+    padding: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
