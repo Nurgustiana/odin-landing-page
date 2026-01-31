@@ -81,11 +81,8 @@ img {
 }
 
 .main-image {
-    width: 400px;
-    border-radius: 10px;
-    display: block;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    max-width: 300px;
 }
 
 /*Buttons*/
