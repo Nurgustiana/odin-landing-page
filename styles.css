@@ -17,11 +17,7 @@ img {
     height: auto;
 }
 
-/* assign background-color to each element to improve grouping
-#navbar, footer, #about-us {
-    background-color: #1F2937;
-} */
-
+/*--Navbar--*/
 #navbar {
     background-color: #1F2937;
     display: flex;
@@ -68,7 +64,6 @@ img {
 .heros {
     flex: 1;
     max-width: 500px;
-    height: auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -86,8 +81,8 @@ img {
 }
 
 .main-image {
-    max-width: 800px;
-    height: auto;
+    width: 600px;
+    border-radius: 10px;
 }
 
 /*Buttons*/
