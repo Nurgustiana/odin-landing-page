@@ -11,6 +11,12 @@ body {
     padding-top: 60px;/*added to prevent fixed navbar cover main content*/
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* assign background-color to each element to improve grouping
 #navbar, footer, #about-us {
     background-color: #1F2937;
@@ -31,6 +37,13 @@ body {
     height: auto;
 }
 
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
 .right-links {
     display: flex;/*style to flex, move gap here*/
     gap: 20px;
@@ -42,43 +55,23 @@ body {
     font-size: 18px;
  }
 
-
-/* remove this as has been style padding for body
-main {
-    margin-top: 20px;
-}*/
-
-main, #about-us, #timeless-book, #quotes, #last-call, footer {
-    width: 100%;
-    height: auto;
-}
-
 /*---Hero section--*/
 #about-us {
     background-color: #1F2937;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 60px 20px;
+    gap: 80px;
 }
 
 .heros {
-    width: 50%;
-    max-width: 50%;
+    flex: 1;
+    max-width: 500px;
     height: auto;
-    padding: 40px;
     display: flex;
     flex-direction: column;
-    margin: 100px auto;
     gap: 20px;
-}
-
-#about-us img {
-    width: 50%;
-    max-width: 100%;
-    height: auto;
-    padding: 40px;
-    margin: 100px auto;
 }
 
 .hero-main {
@@ -92,59 +85,57 @@ main, #about-us, #timeless-book, #quotes, #last-call, footer {
     font-size: 18px;
 }
 
-.logo-text, .action-title {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 800;
+.main-image {
+    max-width: 800px;
+    height: auto;
 }
 
+/*Buttons*/
 button {
     color: white;
     background-color: #3882F6;
     border: 2px solid white;
     border-radius: 8px;
-    width: 120px;
-    height: 30px;
+    width: 200px;
+    padding: 10px 30px;  
+}
+
+/*Books Section*/
+#timeless-books {
+    background-color: white;
+    text-align: center;
+    padding: 60px 20px;
+    
 }
 
 h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#timeless-books {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;
-    padding: 20px;
-    gap: 20px;
+    margin-bottom: 40px;
 }
 
 #books {
     display: flex;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .book {
+    max-width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;   
-    gap: 10px;
+    gap: 15px;
 }
 
 #books img {
-    max-width: 100%;
-    height: auto;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .book-title {
@@ -203,6 +194,13 @@ span {
     border-radius: 10px;
     padding: 40px;
     width: 60%;
+}
+
+.action-title {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin-bottom: 10px;
 }
 
 footer {
