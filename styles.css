@@ -83,6 +83,9 @@ img {
 .main-image {
     width: 600px;
     border-radius: 10px;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /*Buttons*/
