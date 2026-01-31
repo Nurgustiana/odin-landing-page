@@ -150,59 +150,58 @@ h2 {
     color: darkslategray;
 }
 
+/*--Quotes section--*/
 #quotes {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding: 60px 20px;
     gap: 40px;
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 300;
     color: #1F2937;
     font-style: italic;
-    width: 80%;
-    max-width: 100%;
+    max-width: 800px;
+    text-align: center;
 }
 
 span {
     font-weight: bold;
 }
 
+/*--Call to Action section--*/
 #last-call {
     background-color: white;
-    max-height: 300px;
-    padding: 60px;
+    padding: 80px 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 80px;
 }
 
 .action {
     background-color: #3882F6;
-    height: 150px;
     color: #F9FAF8;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    padding: 40px;
-    width: 60%;
+    padding: 40px 60px;
+    width: 100%;
+    max-width: 900px;
 }
 
 .action-title {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 800;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
+/*--Footer--*/
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -213,5 +212,36 @@ footer {
     font-size: 18px;
 }
 
+/* --- MEDIA QUERIES (RESPONSIVENESS) --- */
+/* To make the site look good on mobile devices */
+@media (max-width: 768px) {
+    .right-links {
+        display: none; /* Hide links on mobile for now, or stack them */
+        /* To stack them instead: 
+        flex-direction: column; 
+        position: absolute; 
+        top: 60px; 
+        right: 0; 
+        background: #1F2937; 
+        padding: 20px;
+        */
+    }
 
+    #about-us {
+        flex-direction: column-reverse; /* Put image on top of text on mobile */
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .main-image {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .action {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}
 
