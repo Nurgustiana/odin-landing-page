@@ -1,3 +1,4 @@
+/* --reset and default-- */
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -7,13 +8,16 @@
 body {
     font-family: Roboto, sans-serif;
     width: 100%;
+    padding-top: 60px;/*added to prevent fixed navbar cover main content*/
 }
 
+/* assign background-color to each element to improve grouping
 #navbar, footer, #about-us {
     background-color: #1F2937;
-}
+} */
 
 #navbar {
+    background-color: #1F2937;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,30 +25,40 @@ body {
     padding: 20px;
     position: fixed;
     top: 0;
+    left: 0;/*ensure stick to the left*/
+    z-index: 999;/*ensure always on top*/
     width: 100%;
     height: auto;
 }
 
+.right-links {
+    display: flex;/*style to flex, move gap here*/
+    gap: 20px;
+}
+
 .right-links a {
-    gap: 40px;
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
  }
 
+
+/* remove this as has been style padding for body
 main {
     margin-top: 20px;
-}
+}*/
 
 main, #about-us, #timeless-book, #quotes, #last-call, footer {
     width: 100%;
     height: auto;
 }
 
+/*---Hero section--*/
 #about-us {
+    background-color: #1F2937;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -192,6 +206,7 @@ span {
 }
 
 footer {
+    background-color: #1F2937;
     color: #F9FAF8;
     height: 72px;
     display: flex;
